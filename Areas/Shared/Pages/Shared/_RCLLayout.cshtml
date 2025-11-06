@@ -1,0 +1,106 @@
+@* SharedNavigation/Areas/Shared/Pages/Shared/_RCLLayout.cshtml *@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - @ViewData["AppName"]</title>
+
+    <link rel="stylesheet" href="~/_content/SharedNavigation/lib/fomantic-ui/dist/semantic.css">
+    <link rel="stylesheet" href="~/_content/SharedNavigation/css/navigation.css" />
+    @RenderSection("Styles", required: false)
+</head>
+
+<body>
+
+    <div id="top-nav">
+        <header class="header-with-image"></header>
+        <div class="ui menu" id="top-nav" style="top: 10px !important;margin-bottom:0">
+            <div class="item">
+                <img class="medium" src="~/_content/SharedNavigation/images/logo/Bosch_symbol_logo_black_red.png"
+                    style="width: 10em !important;">
+                <!-- <span class="ui big red text" style="font-weight:900;">BOSCH</span> -->
+            </div>
+            <div class="item">
+                <h4>HmjP&AmaP/HSE</h4>
+            </div>
+            <a class="item open-sidebar"><i class="sidebar icon"></i></a>
+            <div class="right menu">
+                <a class="item open-notify"><i class="bell icon"></i></a>
+                <a class="item">
+                    <!-- <i class="user icon"></i>Tanapat Tansara (HmjP/HSE) -->
+                    <img class="ui avatar image" src="~/_content/SharedNavigation/images/wireframes/square-image.png">
+                    <span>Tanapat Tansara (HmjP/HSE)</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Side Navigation - สลับระหว่างโปรเจค -->
+    <div class="main-context" style="height:calc(100vh - 130px);!important;overflow-y:hidden">
+        <div class="ui left vertical sidebar menu">
+            <a class="item">Home</a>
+            <a class="item">Chemical</a>
+            <a class="item">EHS Data</a>
+            <a class="item">MAE</a>
+            <a class="item">HSE Audit</a>
+            <a class="item">Laws</a>
+            <a class="item">Training Records</a>
+            <a class="item">Waste Management</a>
+            <a class="item">Nurse Service</a>
+            <a class="item">Environmental Monitoring</a>
+            <a class="item">Safety Shoes Request</a>
+            <a class="item">Cleam Food Audit</a>
+            <a class="item">Incident Report</a>
+            <a class="item">Learn to See</a>
+        </div>
+        @await Html.PartialAsync("~/Areas/Shared/Pages/Shared/_Notification.cshtml")
+        <div class="pusher" style="max-height: 100%;overflow-y: auto;padding-bottom:10px">
+
+            @RenderBody()
+            
+        </div>
+    </div>
+    <div class="ui vertical footer segment" style="height:58px">
+        <div class="ui horizontal small divided link list">
+            <div class="item"><img src="~/_content/SharedNavigation/images/logo/Bosch_LOGO.png" class="ui mini image">
+            </div>
+            <div class="item"> Designed and developed by HmjP/HSE
+                © 2025 Robert Bosch Automative Teachnologies (Thailand) Co., Ltd. | HmjP/HSE.</div>
+
+        </div>
+    </div>
+
+    <!-- Project Navigation (ถ้ามี Partial ก็แสดง) -->
+    @if (IsSectionDefined("ProjectNavigation"))
+    {
+        @RenderSection("ProjectNavigation", required: false)
+    }
+
+
+    @* <script src="~/_content/SharedNavigation/js/navigation.js"></script> *@
+    <script src="~/_content/SharedNavigation/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/_content/SharedNavigation/lib/fomantic-ui/dist/semantic.js"></script>
+
+    <script>
+        const $pusher = $('.pusher');
+        $('.ui.sidebar').first().sidebar({
+            context: $('.main-context'), transition: 'push', scrollLock: false, dimPage: false,
+
+        })
+            .sidebar('attach events', '.open-sidebar', 'toggle')
+            ;
+
+        $('.ui.flyout')
+            .flyout({
+                context: $('.main-context'), scrollLock: true, dimPage: false
+            })
+            .flyout('attach events', '.open-notify')
+            ;
+
+    </script>
+    @RenderSection("Scripts", required: false)
+</body>
+
+</html>
