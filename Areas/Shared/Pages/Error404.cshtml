@@ -1,0 +1,78 @@
+@page "/Error404"
+@model SharedNavigation.Pages.Error404Model
+@{
+    ViewData["Title"] = "404 - Not Found!";
+    Layout = "/Areas/Shared/Pages/Shared/_RCLLayout.cshtml";
+}
+<div class="ui vertical stripe segment">
+    <div class="ui middle aligned stackable grid container">
+        <div class="row">
+            <div class="eight wide column">
+                <div class="error-icon">
+
+                    <h1>404 Not found</h1>
+                </div>
+                <h3>Page Not Found</h3>
+                <p>Sorry, the page you are looking for is not in the system. It may have been moved or deleted.</p>
+
+                <div class="ui segment">
+                    <p><strong>Path:</strong> @Model.RequestPath</p>
+                    <p><strong>time:</strong> @DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")</p>
+                </div>
+
+            </div>
+            <div class="six wide right floated column">
+                <img src="/images/wireframes/error-404.png" class="ui rounded medium image">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="center aligned column">
+                <div class="ui compact warning message">
+                    <div class="header">
+                        General troubleshooting/help page:
+                    </div>
+                    <ul class="list">
+                        <li>Check if the URL is correct.</li>
+                        <li>Use the top menu to access different pages.</li>
+                        <li>Search for the information you need.</li>
+                        <li>Contact the support team if the problem persists.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="center aligned column">
+                <a class="ui huge button">Back to Home Page</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+
+
+    .error-icon {
+        margin-bottom: 2rem;
+    }
+
+    .error-icon .emoji {
+        font-size: 5rem;
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .error-icon h1 {
+        font-size: 5.8rem;
+        font-weight: bold;
+        color: #3498db;
+        margin: 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+   
+</style>

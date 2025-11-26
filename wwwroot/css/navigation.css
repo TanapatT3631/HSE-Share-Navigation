@@ -10,6 +10,7 @@
   z-index: 1000; /* Keeps it above other elements */
 }
 body {
+      font-family: "Google Sans Flex", sans-serif !important;
       background-color: #f1efef !important;
     }
     #top-nav{

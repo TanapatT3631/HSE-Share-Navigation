@@ -1,0 +1,317 @@
+@using Microsoft.Extensions.Logging
+@using Microsoft.JSInterop
+@using SharedNavigation.Models
+@using SharedNavigation.Services
+@inject IPlantService PlantService
+@inject IJSRuntime JSRuntime
+@inject ILogger<PlantSelector> Logger
+@implements IDisposable
+@if (IsLoading && ShowLoadingState)
+{
+    <div class="ui loading read-only dropdown">
+        Plant <i class="dropdown icon"></i>
+        <div class="menu">
+            <div class="item">HmjP</div>
+            <div class="item">AmaP</div>
+            
+        </div>
+    </div>
+
+}else{
+    <div class="ui  dropdown link item">
+    <i class="industry icon"></i> @currentPlant <i class="dropdown icon"></i>
+    <div class="menu">
+        @foreach (var plant in plants ?? new List<Plant>())
+        {
+            <div class="item">
+                @plant.Name (@plant.Code)
+            </div>
+        }
+    </div>
+</div>
+}
+
+
+@code {
+    // Basic Parameters
+    [Parameter] public bool AutoReload { get; set; } = true;
+    [Parameter] public bool IsDisabled { get; set; } = false;
+    [Parameter] public string PlaceholderText { get; set; } = "Select Plant";
+    [Parameter] public string ButtonClass { get; set; } = "btn-outline-secondary";
+    [Parameter] public string DropdownClass { get; set; } = "";
+    [Parameter] public string CssClass { get; set; } = "";
+    [Parameter] public string Style { get; set; } = "";
+
+    // Display Options
+    [Parameter] public bool ShowPlantCode { get; set; } = true;
+    [Parameter] public bool ShowLocation { get; set; } = false;
+    [Parameter] public bool ShowClearOption { get; set; } = false;
+    [Parameter] public bool ShowRefreshOption { get; set; } = false;
+    [Parameter] public bool ShowLoadingState { get; set; } = true;
+    [Parameter] public bool ShowSearchBox { get; set; } = true;
+    [Parameter] public int SearchThreshold { get; set; } = 5;
+    [Parameter] public int MaxDropdownHeight { get; set; } = 300;
+
+    // Event Callbacks
+    [Parameter] public EventCallback<string> OnPlantSelected { get; set; }
+    [Parameter] public EventCallback<Plant> OnPlantSelectedWithModel { get; set; }
+    [Parameter] public EventCallback OnPlantCleared { get; set; }
+    [Parameter] public EventCallback<Exception> OnError { get; set; }
+    [Parameter] public EventCallback<PlantChangedEventArgs> OnPlantChanged { get; set; }
+
+    // State
+    private List<Plant>? plants;
+    private Plant? currentPlant;
+    private bool IsLoading = true;
+    private bool HasError = false;
+    private string? ErrorMessage;
+    private string ComponentId = Guid.NewGuid().ToString("N")[..8];
+    private string searchText = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            await LoadData();
+
+            // Subscribe to events
+            PlantService.OnPlantChanged += OnPlantChangedHandler;
+            //PlantService.OnPlantCleared += OnPlantClearedHandler;
+        }
+        catch (Exception ex)
+        {
+            await HandleError(ex, "Error initializing plant selector");
+        }
+    }
+
+    private async Task LoadData()
+    {
+        IsLoading = true;
+        HasError = false;
+        ErrorMessage = null;
+        StateHasChanged();
+
+        try
+        {
+            plants = await PlantService.GetPlantsAsync();
+            currentPlant = await PlantService.GetCurrentPlantAsync();
+
+            Logger.LogDebug("Plant selector loaded: {PlantCount} plants, current: {CurrentPlant}",
+            plants?.Count ?? 0, currentPlant?.Name ?? "None");
+        }
+        catch (Exception ex)
+        {
+            await HandleError(ex, "Error loading plant data");
+        }
+        finally
+        {
+            IsLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    private async Task SelectPlant(string plantId)
+    {
+        if (IsCurrentPlant(plantId) || IsDisabled || IsLoading)
+            return;
+
+        try
+        {
+            var plant = plants?.FirstOrDefault(p => p.PlantCode == plantId);
+            if (plant == null)
+            {
+                throw new InvalidOperationException($"Plant with ID {plantId} not found");
+            }
+
+            Logger.LogInformation("Selecting plant: {PlantId} - {PlantName}", plantId, plant.Name);
+
+            await PlantService.SetCurrentPlantAsync(plantId);
+            currentPlant = plant;
+
+            // Trigger callbacks
+            if (OnPlantSelected.HasDelegate)
+                await OnPlantSelected.InvokeAsync(plantId);
+
+            if (OnPlantSelectedWithModel.HasDelegate)
+                await OnPlantSelectedWithModel.InvokeAsync(plant);
+
+            // Auto reload if enabled
+            if (AutoReload)
+            {
+                await ReloadPage();
+            }
+            else
+            {
+                StateHasChanged();
+            }
+        }
+        catch (Exception ex)
+        {
+            await HandleError(ex, $"Error selecting plant: {plantId}");
+        }
+    }
+
+    @* private async Task ClearSelection()
+    {
+        try
+        {
+            await PlantService.ClearCurrentPlantAsync();
+            currentPlant = null;
+            
+            if (OnPlantCleared.HasDelegate)
+                await OnPlantCleared.InvokeAsync();
+
+            if (AutoReload)
+            {
+                await ReloadPage();
+            }
+            else
+            {
+                StateHasChanged();
+            }
+        }
+        catch (Exception ex)
+        {
+            await HandleError(ex, "Error clearing plant selection");
+        }
+    } *@
+
+    private async Task RefreshPlants()
+    {
+        try
+        {
+            IsLoading = true;
+            StateHasChanged();
+
+            await PlantService.RefreshPlantsAsync();
+            await LoadData();
+        }
+        catch (Exception ex)
+        {
+            await HandleError(ex, "Error refreshing plants");
+        }
+    }
+
+    private async Task ReloadPage()
+    {
+        try
+        {
+            await JSRuntime.InvokeVoidAsync("location.reload");
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError(ex, "Error reloading page");
+        }
+    }
+
+    private void OnSearchInput(ChangeEventArgs e)
+    {
+        searchText = e.Value?.ToString() ?? "";
+        StateHasChanged();
+    }
+
+    private async Task HandleError(Exception ex, string context)
+    {
+        Logger.LogError(ex, "{Context}", context);
+        HasError = true;
+        ErrorMessage = ex.Message;
+        IsLoading = false;
+
+        if (OnError.HasDelegate)
+            await OnError.InvokeAsync(ex);
+
+        StateHasChanged();
+    }
+
+    // Event Handlers
+    private void OnPlantChangedHandler(PlantChangedEventArgs args)
+    {
+        InvokeAsync(async () =>
+        {
+            currentPlant = args.Plant;
+            if (OnPlantChanged.HasDelegate)
+                await OnPlantChanged.InvokeAsync(args);
+            StateHasChanged();
+        });
+    }
+
+    private void OnPlantClearedHandler()
+    {
+        InvokeAsync(() =>
+        {
+            currentPlant = null;
+            StateHasChanged();
+            return Task.CompletedTask;
+        });
+    }
+
+    // Helper Methods
+    private bool IsCurrentPlant(string plantId) => currentPlant?.PlantCode == plantId;
+
+    private List<Plant> GetFilteredPlants()
+    {
+        if (plants == null) return new List<Plant>();
+
+        if (string.IsNullOrWhiteSpace(searchText))
+            return plants;
+
+        var search = searchText.ToLower();
+        return plants.Where(p =>
+        p.Name.ToLower().Contains(search) ||
+        p.PlantCode.ToLower().Contains(search) ||
+        p.Location.ToLower().Contains(search)
+        ).ToList();
+    }
+
+    private string GetDisplayText()
+    {
+        if (currentPlant == null)
+            return PlaceholderText;
+
+        var text = currentPlant.Name;
+        if (ShowPlantCode && !string.IsNullOrEmpty(currentPlant.PlantCode))
+            text += $" ({currentPlant.Code})";
+
+        return text;
+    }
+
+    private string GetButtonIcon()
+    {
+        if (HasError) return "fas fa-exclamation-triangle";
+        if (IsLoading) return "fas fa-spinner fa-spin";
+        return "fas fa-industry";
+    }
+
+    private string GetButtonTooltip()
+    {
+        if (HasError) return $"Error: {ErrorMessage}";
+        if (currentPlant != null) return $"Current Plant: {currentPlant.Name}";
+        return "Select a plant";
+    }
+
+    private string GetItemClass(PlantModel plant)
+    {
+        return IsCurrentPlant(plant.Id) ? "active" : "";
+    }
+
+    private string GetPlantTooltip(Plant plant)
+    {
+        var tooltip = plant.Name;
+        if (!string.IsNullOrEmpty(plant.Location))
+            tooltip += $"\n{plant.Location}";
+        if (!string.IsNullOrEmpty(plant.Country))
+            tooltip += $"\nLocation: {plant.Country}";
+        return tooltip;
+    }
+
+    private string GetDropdownStyle()
+    {
+        return MaxDropdownHeight > 0 ? $"max-height: {MaxDropdownHeight}px; overflow-y: auto;" : "";
+    }
+
+    public void Dispose()
+    {
+        PlantService.OnPlantChanged -= OnPlantChangedHandler;
+        //PlantService.OnPlantCleared -= OnPlantClearedHandler;
+    }
+}

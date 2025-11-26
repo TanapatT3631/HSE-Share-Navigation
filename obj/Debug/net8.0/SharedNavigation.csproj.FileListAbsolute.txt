@@ -10,6 +10,7 @@ C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net
 C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net8.0\SharedNavigation.csproj.CoreCompileInputs.cache
 C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net8.0\SharedNavigation.RazorAssemblyInfo.cache
 C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net8.0\SharedNavigation.RazorAssemblyInfo.cs
+C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net8.0\SharedNavigation.sourcelink.json
 C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -30,3 +31,37 @@ C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net
 C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net8.0\refint\SharedNavigation.dll
 C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net8.0\SharedNavigation.pdb
 C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net8.0\ref\SharedNavigation.dll
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\SharedNavigation.csproj.AssemblyReference.cache
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\SharedNavigation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\SharedNavigation.AssemblyInfoInputs.cache
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\SharedNavigation.AssemblyInfo.cs
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\SharedNavigation.csproj.CoreCompileInputs.cache
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\SharedNavigation.RazorAssemblyInfo.cache
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\SharedNavigation.RazorAssemblyInfo.cs
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\SharedNavigation.sourcelink.json
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\bin\Debug\net8.0\SharedNavigation.staticwebassets.runtime.json
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\bin\Debug\net8.0\SharedNavigation.staticwebassets.endpoints.json
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\bin\Debug\net8.0\SharedNavigation.deps.json
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\bin\Debug\net8.0\SharedNavigation.dll
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\bin\Debug\net8.0\SharedNavigation.pdb
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\scopedcss\Component1.razor.rz.scp.css
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\scopedcss\bundle\SharedNavigation.styles.css
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\scopedcss\projectbundle\SharedNavigation.bundle.scp.css
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\staticwebassets\msbuild.SharedNavigation.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\staticwebassets\msbuild.SharedNavigation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\staticwebassets\msbuild.build.SharedNavigation.props
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SharedNavigation.props
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SharedNavigation.props
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\SharedNavigation.dll
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\refint\SharedNavigation.dll
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\SharedNavigation.pdb
+C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\obj\Debug\net8.0\ref\SharedNavigation.dll

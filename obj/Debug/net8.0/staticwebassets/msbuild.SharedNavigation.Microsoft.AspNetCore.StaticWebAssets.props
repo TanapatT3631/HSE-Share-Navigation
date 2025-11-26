@@ -32,12 +32,12 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>a3sidpdhjo</Fingerprint>
-      <Integrity>tp8NAfeTwP9QgPdeK3zn5cYPQpCSoH5sy+fufT1/ngM=</Integrity>
+      <Fingerprint>44wnyl2dhp</Fingerprint>
+      <Integrity>VDhkbFeB/nArQTEdpAHz6wIdQMBwi6y8ZGdZFZ52eYE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <FileLength>5474</FileLength>
-      <LastWriteTime>Wed, 05 Nov 2025 09:28:14 GMT</LastWriteTime>
+      <FileLength>5537</FileLength>
+      <LastWriteTime>Tue, 25 Nov 2025 08:49:21 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\navigation.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\exampleJsInterop.js'))">
@@ -399,6 +399,26 @@
       <FileLength>1119</FileLength>
       <LastWriteTime>Thu, 30 Oct 2025 09:57:31 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\navigation.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>js/site.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9pco5tq537</Fingerprint>
+      <Integrity>sxDsotAQs4LPLNhvJuGdEy3iu3L33pJYUOkBU5Y47GY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1066</FileLength>
+      <LastWriteTime>Wed, 12 Nov 2025 08:37:47 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))">
       <SourceType>Package</SourceType>
@@ -4652,12 +4672,12 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wi8f9u9hw4</Fingerprint>
-      <Integrity>GHbVYmT10XHWTqkLDUnpkftj0QLk3gBWzDV11xLvPGA=</Integrity>
+      <Fingerprint>2x2oqzzlx7</Fingerprint>
+      <Integrity>xlp3XbXCVlcKYMpXDnziC1QzN9j0SQiDjRiZ0qu6IOc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <FileLength>1647180</FileLength>
-      <LastWriteTime>Tue, 11 Mar 2025 08:29:16 GMT</LastWriteTime>
+      <FileLength>1719166</FileLength>
+      <LastWriteTime>Fri, 07 Nov 2025 02:24:17 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\fomantic-ui\dist\semantic.min.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\fomantic-ui\dist\semantic.min.js'))">
@@ -4672,12 +4692,12 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qqckf6z5q2</Fingerprint>
-      <Integrity>gjRnT2t2RScxkS7OWb7qo8E+hQmeD1q+EmOoQuE51IE=</Integrity>
+      <Fingerprint>ergfznaq94</Fingerprint>
+      <Integrity>Zh6NZwjzefLXtkIYJygkBuwIxUhZjOPgxKHvlGPo688=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <FileLength>403245</FileLength>
-      <LastWriteTime>Thu, 07 Sep 2023 19:15:54 GMT</LastWriteTime>
+      <FileLength>408334</FileLength>
+      <LastWriteTime>Fri, 07 Nov 2025 02:24:28 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\fomantic-ui\dist\semantic.min.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\fomantic-ui\dist\themes\basic\assets\fonts\icons.woff'))">
@@ -17540,6 +17560,1646 @@
       <LastWriteTime>Thu, 16 Oct 2025 02:25:30 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/dist/sweetalert2.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>chlf1662vd</Fingerprint>
+      <Integrity>gIyRoWVpSf3j+SbaqpI0Hxs/WtAifDnnz+DOvy6MLuo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>35093</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/dist/sweetalert2.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>b4ey3fscp8</Fingerprint>
+      <Integrity>BUWhI3w8KrK0Gks9KAb1tb/HkOCV9gF0VFSIjtacD5I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>142536</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.all.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/dist/sweetalert2.all.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>x5ltxigro2</Fingerprint>
+      <Integrity>ZRk0HiSxo0YzUbj30Zta15Ca6YC1Vlxtj1cN0XMvqQ4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>173458</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.all.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.all.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/dist/sweetalert2.all.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fvwrs0c4xb</Fingerprint>
+      <Integrity>1cQTGybAoN6zAsKD5JCu5ui/YwHtGj1LYrRpN5uIsyA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>78766</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.all.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.esm.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/dist/sweetalert2.esm.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>h8kd1er17c</Fingerprint>
+      <Integrity>sTAEW6GzLZ8+xBVIt2hWaJ6ZicxyRYCjF157/iZafjw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>133682</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.esm.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.esm.all.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/dist/sweetalert2.esm.all.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ymbnmcg7mt</Fingerprint>
+      <Integrity>Vh/9oBXXbHLXl8gVrNogPpHqQT8r0SBGQxOSmYbUvJg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>164604</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.esm.all.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.esm.all.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/dist/sweetalert2.esm.all.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wtqikm8337</Fingerprint>
+      <Integrity>rLtFBb7cGo6A+fF+MwdrXHop5reT39yfd/WZ0ZCTqUs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>78437</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.esm.all.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.esm.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/dist/sweetalert2.esm.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s03h2fef96</Fingerprint>
+      <Integrity>dFjn9R+Cej7TrMWSoRYpp9n3bcJbvFcdI4izmyn1svQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>47515</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.esm.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.min.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/dist/sweetalert2.min.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>aw2ce2ju7c</Fingerprint>
+      <Integrity>VqBagSPahwzjkw8/E0KAY23AmFZuYBxX6f6uVDgY1rg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>30666</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.min.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/dist/sweetalert2.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>swb5agfo74</Fingerprint>
+      <Integrity>jEVdaV6ysZxXYSDVTTHoHlZ5RiFmAtBMovsz+WwghHo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>47844</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\dist\sweetalert2.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\LICENSE'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/LICENSE</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>74foo8sdjh</Fingerprint>
+      <Integrity>h5qjP+ujWzQoxkhfwXzd2Mgg16h4AoGqlF5gWCooxLQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1097</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\LICENSE'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\package.json'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/package.json</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ettboqec7z</Fingerprint>
+      <Integrity>TvR6E+JdGxr3ei+CZOTKPLkC9TEoohOwYVmKNx40KXI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>2782</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\package.json'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\README.md'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/README.md</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>v0fr497wda</Fingerprint>
+      <Integrity>zzwAjfpjefYjiroTl42RROLDFtT9dVqPJ/89OLoKYZA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>8480</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\README.md'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\buttons-handlers.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/buttons-handlers.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gqly1tjtln</Fingerprint>
+      <Integrity>eLis1w96y5DoSlILZYAeliuLSk/K1nzayA81PL4rIbE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>5546</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\buttons-handlers.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\constants.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/constants.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rmzrd7akzf</Fingerprint>
+      <Integrity>IzZefiCatAJVOwK0desRU1aOSH1UQxtoiXsiDWR4wOw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>41</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\constants.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\globalState.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/globalState.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rb86qtkni1</Fingerprint>
+      <Integrity>p11+9FgEJegmHqdzBnkSGVe+6MkuFFy6RnwR0fcb6jU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>903</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\globalState.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/instanceMethods.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6kdig22ah3</Fingerprint>
+      <Integrity>2vKp2skoRszK3M1NUxEb9MdDE6mkPE/5lW86mh15TzM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>345</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods\close.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/instanceMethods/close.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>o3rxj3lmty</Fingerprint>
+      <Integrity>dLYZNVgPLYwdIWC4CkD9A2OpnqV1ubnkd42huqHlnmY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>6253</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods\close.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods\enable-disable-elements.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/instanceMethods/enable-disable-elements.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ppffqgp10s</Fingerprint>
+      <Integrity>TWdWNVV/OVN6+9YU8lY9j5Id+wHxFn0J+x8pUhmIXkw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1543</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods\enable-disable-elements.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods\getInput.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/instanceMethods/getInput.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>p63i1iaoua</Fingerprint>
+      <Integrity>oal4t5H88c0lE4Ymy1+4ozQm6xfJDExr/GoB+MtCMKE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>444</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods\getInput.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods\hideLoading.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/instanceMethods/hideLoading.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>oz9usm5u5h</Fingerprint>
+      <Integrity>FBJNKGLEHs4sSDUBUDlhLB0gmCw7HV4aQCR0jzuR2x4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1266</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods\hideLoading.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods\update.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/instanceMethods/update.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lnhki9i6iq</Fingerprint>
+      <Integrity>n7N1K/OhbH+Uv2T3tPmqyFc0E7qAlb1OUF6J+wFuiNo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1592</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods\update.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods\validation-message.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/instanceMethods/validation-message.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3al5tr9qjn</Fingerprint>
+      <Integrity>BWy84z1v9SS4EEZ7jFqRBTL6yCZ5xGqCMdMyCCmESFs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1404</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods\validation-message.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods\_destroy.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/instanceMethods/_destroy.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>57obfblkhx</Fingerprint>
+      <Integrity>QRpMKQKYz00Br0ZEX+XwyiGq8/mX9gmU2jmicl0A3vI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>2513</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\instanceMethods\_destroy.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\keydown-handler.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/keydown-handler.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>57bh9afei1</Fingerprint>
+      <Integrity>DyzDFsL+xGeeRW3UiUmhNZO8abHClSdfLvEBXBEAUGc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>5780</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\keydown-handler.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\popup-click-handler.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/popup-click-handler.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8htgh7x958</Fingerprint>
+      <Integrity>xIl/X6+ntF+3ArprEhXWPUXGvkV2yDBAOLSoCvj+jHQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>3116</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\popup-click-handler.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\privateMethods.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/privateMethods.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vqlnz34bei</Fingerprint>
+      <Integrity>KUM/DCe15Ke31qfVYrtU8jB75kV1grpMRZZ5bdcb2f0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>646</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\privateMethods.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\privateProps.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/privateProps.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7oa5q8wwaq</Fingerprint>
+      <Integrity>ucCwhgQX7Fr0rf3oFOVic9zloqnx9Cl3lPiW8Wv1s3U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>630</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\privateProps.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/staticMethods.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>teqj1xqihl</Fingerprint>
+      <Integrity>dfGjuDh2rhg+21g8MleVvakIeAZYjw44/C8yOVQyX40=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>455</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\argsToParams.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/staticMethods/argsToParams.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bluyav270q</Fingerprint>
+      <Integrity>oSqTKPoJyxDixp/ruredNWwXZAcxtQHjxWrNwlcAZb0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>701</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\argsToParams.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\bindClickHandler.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/staticMethods/bindClickHandler.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uufb37o8gv</Fingerprint>
+      <Integrity>BgQ3PNt4Yw8oq1djMQi+8svKGf4cQmelM/n+DC2fTPg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>627</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\bindClickHandler.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\dom.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/staticMethods/dom.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a6j5jjyykb</Fingerprint>
+      <Integrity>rlCGzZnD2w7C0s+WVprCV8v3jWkfgk6BrnU5Wz9cANU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>969</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\dom.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\eventHandlers.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/staticMethods/eventHandlers.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wd4oh6giw3</Fingerprint>
+      <Integrity>NDUyJA/igMhtS7Ne+AeoUaKdChVHLdEWlVl+ATBHtj0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1002</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\eventHandlers.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\fire.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/staticMethods/fire.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wbgqr3t0eq</Fingerprint>
+      <Integrity>LIyByLlvLbMTd2KfAbgLMZw4fXvePTni9XlrpY/KJ50=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>200</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\fire.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\mixin.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/staticMethods/mixin.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dn8hrmwmcd</Fingerprint>
+      <Integrity>CdmFm1AEd28EMRfOna7QPgpJGewGfsNk6Tx8WAAmVZw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>991</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\mixin.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\showLoading.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/staticMethods/showLoading.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0uid0pg9da</Fingerprint>
+      <Integrity>aBuGV95cnFyqkqiV5lfMUELytEXfqfvfvBjptRQ0pRg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1450</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\showLoading.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\timer.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/staticMethods/timer.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jxrw3xtcmx</Fingerprint>
+      <Integrity>mdPC0AwdsO+2HNdhPDUTP2X0pL2BWEPhJrbpyNti/+U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>2032</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\staticMethods\timer.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\SweetAlert.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/SweetAlert.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bv5q2zn8aw</Fingerprint>
+      <Integrity>yUHf91dZkfjaIvAPxpgiFhIcIU4rNj9qo3mgsI/wd0I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>10474</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\SweetAlert.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\sweetalert2.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/sweetalert2.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>k21w8jdy8t</Fingerprint>
+      <Integrity>lK79jRZasP3LEOHcX00dDxx2+LCrTs2FJ0pPAJBwsmg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>121</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\sweetalert2.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\sweetalert2.scss'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/sweetalert2.scss</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>x8vsav4np2</Fingerprint>
+      <Integrity>z0ysb6efwrjJN7dveV/YRpRtFfvXAB6zCNi52dvwebc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>44950</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\sweetalert2.scss'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\types.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/types.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9k29w52xim</Fingerprint>
+      <Integrity>x9ZBrLv+9ej74YTe5gq93gt7cgBrDRdjQhw17zyqM7Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>3239</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\types.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\aria.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/aria.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4uyl8gacju</Fingerprint>
+      <Integrity>nIvDkLi5UihnhWb898LWi5/Duugfe6Lz+zwL2o80Gec=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1229</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\aria.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\classes.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/classes.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>oig1llzfa9</Fingerprint>
+      <Integrity>IF3SgfH6e3P1zrccb1gGAEZLX9PvJNWzIVMPbPBBlG4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1733</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\classes.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\defaultInputValidators.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/defaultInputValidators.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ye5ea1gskg</Fingerprint>
+      <Integrity>Fv8G4ysX6qCkqNQH/wDzHue9hpEpdihdy8N1UVSyGLY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>822</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\defaultInputValidators.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\DismissReason.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/DismissReason.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mnp9fujxp1</Fingerprint>
+      <Integrity>IgHo4v58giIcSXvAdpqRMYT6pRtHUJfA36IWHqJ6Pa8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>194</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\DismissReason.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\domUtils.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/domUtils.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1ra68j5zyq</Fingerprint>
+      <Integrity>E0CMTdfb+FHjvMkoR/wk3+4yaStUj+sC1rxj+8D7Ebc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>9570</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\domUtils.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\getters.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/getters.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lhuijtffoa</Fingerprint>
+      <Integrity>2aFg1mSxNLIIJ3qw3uORGOsxhurfo84zr/W8Hb4yQuY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>4926</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\getters.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\index.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/index.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ahdk1bi45o</Fingerprint>
+      <Integrity>wrHFuUZT8m38+nGYlyHsKEtN1vKU3C6WJsLun7wWV/w=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>165</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\index.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\init.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/init.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hhad2wn96u</Fingerprint>
+      <Integrity>qxd2jZEuEYGvKgrlZgQFAOLMYOs17N6T2tc3XnN0WXU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>5108</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\init.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\inputUtils.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/inputUtils.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>v9bwu9qb2x</Fingerprint>
+      <Integrity>EwOiGYhSaPQAy6QfZNAlhUocL6WM4h3VuYNix8/YuEY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>7192</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\inputUtils.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\parseHtmlToContainer.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/parseHtmlToContainer.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qbmskoowp8</Fingerprint>
+      <Integrity>BtReGYGuxMgBmNUENOdcwUKL1uiocTEXKsNZ5lUFpjI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1061</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\parseHtmlToContainer.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\render.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/renderers/render.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xwzwpw1bfs</Fingerprint>
+      <Integrity>L3nI57MK2xnWrxWEzb9Bt/GAOobIFN2Wdb9PIoHQHU0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1244</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\render.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderActions.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/renderers/renderActions.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8y4mv8jrdj</Fingerprint>
+      <Integrity>kFFnnNNfITJ6JmCW9Xf5H63OYEwV1OnI0rn/1zC/VhE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>4102</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderActions.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderCloseButton.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/renderers/renderCloseButton.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hxv6qbozzg</Fingerprint>
+      <Integrity>23JssSYe+auNgMrpNIOc3G2OHYHCYPjc+4MSwX60qDM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>527</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderCloseButton.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderContainer.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/renderers/renderContainer.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8afxta432z</Fingerprint>
+      <Integrity>oHAuaElIqLhwH6b7HgRQCBuJygfHnbFespBSuHEdBAQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1521</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderContainer.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderContent.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/renderers/renderContent.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>b1zxbrscbf</Fingerprint>
+      <Integrity>nyYJW2B8FUByqhMyFexsR72a4NSnMGN4ubW3WEjCKqA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>790</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderContent.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderFooter.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/renderers/renderFooter.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>n9awfqlv39</Fingerprint>
+      <Integrity>+yIJWK3ZKvIyYfTP/S8uugRg9RUWB5OiSlmy/rweme0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>482</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderFooter.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderIcon.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/renderers/renderIcon.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5vii54mxff</Fingerprint>
+      <Integrity>AYWUstTZtfFHC+dZXMunUEhdkg4SJqjV8RETQmkzCgU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>4660</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderIcon.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderImage.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/renderers/renderImage.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ytx86z5z18</Fingerprint>
+      <Integrity>umDMMQckuLTAEcTmO/Gegc7amhFIK7Fq8z1epslaOHg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>719</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderImage.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderInput.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/renderers/renderInput.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>68dim6bgh8</Fingerprint>
+      <Integrity>dnHbcgpJInQT+nKCUT+4EHT/jKH7ji7r9SSvW2mktCI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>8752</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderInput.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderPopup.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/renderers/renderPopup.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j4m00r7c22</Fingerprint>
+      <Integrity>Ayy+O0CkgBR2GhXaIEQk7TR1uE4naBorRPXwbn6a38g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>2170</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderPopup.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderProgressSteps.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/renderers/renderProgressSteps.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>n2tnky172i</Fingerprint>
+      <Integrity>EeFHadKgVxODcIkesWrkflplg12Fhr+FFnTomlWgoMo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1878</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderProgressSteps.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderTitle.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/dom/renderers/renderTitle.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xbs6mpi1z0</Fingerprint>
+      <Integrity>E/FciSQeSAPQdA4DUdIOHPQSfbf7Zf6XTrWFm2DxoBM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>560</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\dom\renderers\renderTitle.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\draggable.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/draggable.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xv02kqib06</Fingerprint>
+      <Integrity>/Yw6pVKB5vk7ehmTzaM4fyqREGgHZIQBE7wY4xdZ1iU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>2377</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\draggable.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\EventEmitter.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/EventEmitter.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hjcoakne96</Fingerprint>
+      <Integrity>g6BGkFUdBy7RokM5PsnRyjZ3QEVMHpUJ2mnCz7YTt2E=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>2202</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\EventEmitter.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\getTemplateParams.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/getTemplateParams.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>c5fjkz2gaj</Fingerprint>
+      <Integrity>kAzVegD/xg/On9ShvXvjKGb2SOYG6hVoRIUE678N7K8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>7707</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\getTemplateParams.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\iosFix.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/iosFix.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4wh3l1aerh</Fingerprint>
+      <Integrity>VHbUNxPYRqRKC4AEwecMH2gwiPRoPykn3644+f7scK4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>2655</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\iosFix.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\isNodeEnv.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/isNodeEnv.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4o2uiikzzr</Fingerprint>
+      <Integrity>BEPxsIesV0I0vl3R/2jzvpekJIxSCxxXuG4YOzrunNI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>148</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\isNodeEnv.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\openPopup.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/openPopup.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ezrsh92xft</Fingerprint>
+      <Integrity>qlE/A8fWuNpVngp3FJfM9SJjEp6UntgBGKDi2sCuHo4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>3697</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\openPopup.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\params.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/params.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jito51z5i5</Fingerprint>
+      <Integrity>a+SYmDVcQxBelOLsagL0BJTcbJVLyrt0vDayPPpICYE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>5626</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\params.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\scrollbar.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/scrollbar.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2tk0smy33m</Fingerprint>
+      <Integrity>qgKyIv/v4s36sw5df9NQ0rgXP9pli2oygyO6yE5dTJY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1581</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\scrollbar.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\setParameters.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/setParameters.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xrfb7uxrb6</Fingerprint>
+      <Integrity>nZNPwBe4A7FtrXoNcgKZ+rWE9B5zUMdbffMrY6nbhsk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1702</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\setParameters.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\Timer.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/Timer.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>791madjib7</Fingerprint>
+      <Integrity>JQKQLzzCD+2tHuRunQDl2g6r3pt79ye4aQ6QgnxQyJk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>1195</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\Timer.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\utils.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/src/utils/utils.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j8yffogmye</Fingerprint>
+      <Integrity>E6of4J0q3fhHGzx865NndsdODiVxOIdTfAbsowLtPUI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>2048</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\src\utils\utils.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\sweetalert2.d.ts'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/sweetalert2.d.ts</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>l2hpcg7wfx</Fingerprint>
+      <Integrity>rV5U++TTwS8w+R83S75Xf/mJCCL6GURe//8EAy/+Eps=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>35826</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\sweetalert2.d.ts'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\themes\bootstrap-4.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/themes/bootstrap-4.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tvxsrojul1</Fingerprint>
+      <Integrity>d1rFdkSkXl21yzgkhfAnKjp+MQZMdsLQxqd4RXsWtco=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>5132</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\themes\bootstrap-4.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\themes\bootstrap-5.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/themes/bootstrap-5.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rlbvlh7h30</Fingerprint>
+      <Integrity>fxWElRRANJAFmYLnwd5X+q6HocgDA7kdgZS4pHsV7DI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>5268</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\themes\bootstrap-5.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\themes\borderless.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/themes/borderless.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>umdab4kjm2</Fingerprint>
+      <Integrity>ht4Vk/2OXsRpkqQTzqzChxBP1o01oTvujpJQhp3WhDY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>964</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\themes\borderless.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\themes\bulma.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/themes/bulma.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>u7syq2arfs</Fingerprint>
+      <Integrity>pjpBBY0x0wOwgMwPN+a2hleWQmztQqbiypBkK2kiodQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>2791</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\themes\bulma.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\themes\embed-iframe.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/themes/embed-iframe.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qtt89sge5x</Fingerprint>
+      <Integrity>/mE4Ca03SM8eXuG59iDa07H36hWfYIFJtL4ZfUNatPU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>695</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\themes\embed-iframe.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\themes\material-ui.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/themes/material-ui.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>v1thqcryli</Fingerprint>
+      <Integrity>rRjxia+l+4a2GeXBSs9mUKctwuZ4ijWMHzW2oxMSTgg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>5505</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\themes\material-ui.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\themes\minimal.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SharedNavigation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SharedNavigation</BasePath>
+      <RelativePath>lib/sweetalert2/themes/minimal.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pfw5d1q3z3</Fingerprint>
+      <Integrity>dWRd7Mdxb040UBzGCnD0phjRcPK91qiQJAf5p4kWrRg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>907</FileLength>
+      <LastWriteTime>Sat, 26 Oct 1985 08:15:00 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\sweetalert2\themes\minimal.css'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SharedNavigation.kgn7gpijnq.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>SharedNavigation</SourceId>
@@ -17557,7 +19217,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>209</FileLength>
-      <LastWriteTime>Thu, 06 Nov 2025 05:12:53 GMT</LastWriteTime>
+      <LastWriteTime>Wed, 26 Nov 2025 05:35:22 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SharedNavigation.kgn7gpijnq.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>

@@ -1,0 +1,79 @@
+@* SharedNavigation/Areas/Shared/Pages/Error500.cshtml *@
+@page "/Error500"
+@model SharedNavigation.Pages.Error500Model
+@{
+
+    ViewData["Title"] = "500 - Intenal Server Error";
+    Layout = "/Areas/Shared/Pages/Shared/_RCLLayout.cshtml";
+}
+<div class="ui vertical stripe segment">
+    <div class="ui middle aligned stackable grid container">
+        <div class="row">
+            <div class="eight wide column">
+                <div class="error-icon">
+
+                    <h1>500 Internal Server Error</h1>
+                </div>
+                <h3>Internal Server Error</h3>
+                <p>Sorry, an internal system error has occurred. Our team is currently working to fix the issue.</p>
+                <p>@Model.ErrorId</p>
+                <div class="ui danger message">
+                    <p>@Model.ErrorMessage</p>
+                    <p>@Model.ErrorDetails</p>
+                    <p><strong>time:</strong> @DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")</p>
+                </div>
+
+            </div>
+            <div class="six wide right floated column">
+                <img src="/images/wireframes/error.png" class="ui rounded large image">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="center aligned column">
+                <div class="ui compact warning message">
+                    <div class="header">
+                        General troubleshooting/help page:
+                    </div>
+                    <ul class="list">
+                        <li>Please Contact HSE Administrator :<a href="mailto:Tanapat.Tansara@th.bosch.com"> <i class="envelope icon"></i> Tanapat Tansara(HmjP/HSE)</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="center aligned column">
+                <a class="ui huge button" asp-action="Index" asp-controller="Home">Back to Home Page</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+
+
+    .error-icon {
+        margin-bottom: 2rem;
+    }
+
+    .error-icon .emoji {
+        font-size: 5rem;
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .error-icon h1 {
+        font-size: 5rem;
+        font-weight: bold;
+        color: #db3434;
+        margin: 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+   
+</style>

@@ -1,0 +1,241 @@
+@model SharedNavigation.Models.UserInfo
+
+<div class="rcl-user-menu">
+    @if (Model.IsAuthenticated)
+    {
+        <div class="user-dropdown">
+            <button class="user-btn" onclick="toggleUserMenu()">
+                @if (!string.IsNullOrEmpty(Model.PhotoUrl))
+                {
+                    <img src="@Model.PhotoUrl" alt="@Model.DisplayName" class="user-photo" />
+                }
+                else
+                {
+                    <span class="user-avatar">👤</span>
+                }
+                <span class="user-name">@Model.DisplayName</span>
+                <span class="dropdown-arrow">▼</span>
+            </button>
+            
+            <div class="user-dropdown-menu" id="userDropdownMenu">
+                <div class="user-info-header">
+                    <strong>@Model.DisplayName</strong>
+                    <small>@Model.Email</small>
+                    @if (Model.Roles.Any())
+                    {
+                        <div class="user-roles">
+                            @foreach (var role in Model.Roles)
+                            {
+                                <span class="role-badge">@role</span>
+                            }
+                        </div>
+                    }
+                </div>
+                
+                <div class="menu-divider"></div>
+                
+                <a href="/Account/Profile" class="menu-item">
+                    <span class="menu-icon">👤</span>
+                    โปรไฟล์
+                </a>
+                <a href="/Account/Settings" class="menu-item">
+                    <span class="menu-icon">⚙️</span>
+                    ตั้งค่า
+                </a>
+                
+                <div class="menu-divider"></div>
+                
+                <a href="/Account/Logout" class="menu-item logout">
+                    <span class="menu-icon">🚪</span>
+                    ออกจากระบบ
+                </a>
+            </div>
+        </div>
+    }
+    else
+    {
+        <a href="/Account/Login" class="rcl-btn-login">
+            <span class="login-icon">🔑</span>
+            เข้าสู่ระบบด้วย Microsoft
+        </a>
+    }
+</div>
+
+<style>
+    .rcl-user-menu {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .user-btn {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 25px;
+        color: white;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    
+    .user-btn:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+    
+    .user-photo {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+    .user-avatar {
+        font-size: 1.5rem;
+    }
+    
+    .user-name {
+        font-size: 0.9rem;
+        max-width: 150px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    
+    .dropdown-arrow {
+        font-size: 0.7rem;
+        transition: transform 0.3s;
+    }
+    
+    .user-dropdown.active .dropdown-arrow {
+        transform: rotate(180deg);
+    }
+    
+    .user-dropdown-menu {
+        display: none;
+        position: absolute;
+        top: calc(100% + 0.5rem);
+        right: 0;
+        min-width: 280px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        z-index: 3000;
+        overflow: hidden;
+    }
+    
+    .user-dropdown-menu.show {
+        display: block;
+        animation: slideDown 0.3s ease;
+    }
+    
+    .user-info-header {
+        padding: 1.5rem;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+    }
+    
+    .user-info-header strong {
+        display: block;
+        font-size: 1.1rem;
+        margin-bottom: 0.25rem;
+    }
+    
+    .user-info-header small {
+        display: block;
+        opacity: 0.9;
+        font-size: 0.85rem;
+    }
+    
+    .user-roles {
+        margin-top: 0.75rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    
+    .role-badge {
+        background: rgba(255, 255, 255, 0.2);
+        padding: 0.25rem 0.75rem;
+        border-radius: 12px;
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+    
+    .menu-divider {
+        height: 1px;
+        background: #eee;
+        margin: 0.5rem 0;
+    }
+    
+    .menu-item {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.75rem 1.5rem;
+        color: #2c3e50;
+        text-decoration: none;
+        transition: background 0.3s;
+    }
+    
+    .menu-item:hover {
+        background: #f8f9fa;
+    }
+    
+    .menu-item.logout {
+        color: #e74c3c;
+    }
+    
+    .menu-item.logout:hover {
+        background: #fee;
+    }
+    
+    .menu-icon {
+        font-size: 1.2rem;
+    }
+    
+    .rcl-btn-login {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: white;
+        color: #667eea;
+        padding: 0.75rem 1.5rem;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .rcl-btn-login:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+    
+    .login-icon {
+        font-size: 1.2rem;
+    }
+</style>
+
+<script>
+    function toggleUserMenu() {
+        const menu = document.getElementById('userDropdownMenu');
+        const dropdown = menu.closest('.user-dropdown');
+        
+        menu.classList.toggle('show');
+        dropdown.classList.toggle('active');
+    }
+    
+    // Close when clicking outside
+    document.addEventListener('click', function(event) {
+        const userMenu = document.querySelector('.rcl-user-menu');
+        if (userMenu && !userMenu.contains(event.target)) {
+            const menu = document.getElementById('userDropdownMenu');
+            const dropdown = menu?.closest('.user-dropdown');
+            if (menu) menu.classList.remove('show');
+            if (dropdown) dropdown.classList.remove('active');
+        }
+    });
+</script>
