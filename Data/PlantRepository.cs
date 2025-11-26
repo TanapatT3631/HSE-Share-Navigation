@@ -27,7 +27,8 @@ namespace SharedNavigation.Data
             List<Plant?> result = new List<Plant?>();
             var sql = $@"
                 SELECT PLANT_CODE, PLANT_NAME, PLANT_LOCATION, PLANT_COUNTRY, Latitude, Longtitude
-                FROM [{_options.TablePlant}]";
+                FROM [{_options.TablePlant}]
+                ORDER BY PLANT_CODE";
             try
             {
                 using var connection = new SqlConnection(_options.ConnectionString);
@@ -38,11 +39,11 @@ namespace SharedNavigation.Data
 
                 using var reader = await command.ExecuteReaderAsync();
 
-                if (await reader.ReadAsync())
+                while (await reader.ReadAsync())
                 {
                     result.Add(MapToPlant(reader));
                 }
-
+                _logger.LogInformation("Retrieved {Count} plants from database", result.Count);
                 return result;
             }
             catch (SqlException ex)
@@ -57,12 +58,12 @@ namespace SharedNavigation.Data
             return new Plant
             {
                 
-                PlantCode = reader.GetString("AzureAdObjectId"),
-                Name = reader.GetString("Email"),
-                Location = reader.GetString("DisplayName"),
-                Country = reader.GetString("Department"),
-                Latitude = reader.GetDecimal("Plant"),
-                Longtitude = reader.GetDecimal("CreatedAt"),
+                PlantCode = reader.GetString("PLANT_CODE"),
+                Name = reader.GetString("PLANT_NAME"),
+                Location = reader.GetString("PLANT_LOCATION"),
+                Country = reader.GetString("PLANT_COUNTRY"),
+                Latitude = reader.IsDBNull("Latitude") ? 0 : reader.GetDecimal("Latitude"),
+                Longtitude = reader.IsDBNull("Longtitude") ? 0 : reader.GetDecimal("Longtitude")
                 
             };
         }

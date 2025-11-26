@@ -1,0 +1,28 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection":  "Server=(localdb)\\Tanapat;Database=HSE;User Id=sa;Password=TaeBoschP@ssw0rd;"
+  },
+  "UserRegistration": {
+    "ConnectionString":  "Server=(localdb)\\Tanapat;Database=HSE;User Id=sa;Password=TaeBoschP@ssw0rd;",
+    "TableName": "UserProfiles",
+    "TableDepartment": "BOSCH_DEPARTMENT",
+    "TablePlant": "BOSCH_PLANT",
+    "EnableMiddleware": true,
+    "AutoRegisterUsers": true,
+    "ExcludedPaths": [
+      "/Account/Logout",
+      "/Account/AccessDenied",
+      "/api/",
+      "/.well-known/",
+      "/health"
+    ]
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning",
+      "SharedNavigation": "Debug"
+    }
+  },
+  "AllowedHosts": "*"
+}

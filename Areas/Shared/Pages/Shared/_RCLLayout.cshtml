@@ -34,15 +34,20 @@
                 <h4>HmjP&AmaP/HSE</h4>
             </div>
             <a class="item open-sidebar"><i class="sidebar icon"></i></a>
-            <div class="right  menu">
-         
+            <div class="right menu">
+                 @await Html.PartialAsync("~/Areas/Shared/Pages/Shared/_PlantSelector.cshtml")
                 <a class="item open-notify"><i class="bell icon"></i></a>
                 <div class="item">
-                 <img class="ui avatar image" src="~/_content/SharedNavigation/images/wireframes/square-image.png">
-                
-                    <span>@(User.FindFirst("name")?.Value ?? User.Identity?.Name)
-                        <br /><small>@(User.FindFirst("preferred_username")?.Value) / @User.FindFirst("custom_plant")?.Value</small></span>
-                </div>            
+                    <img class="ui avatar image" src="~/_content/SharedNavigation/images/wireframes/square-image.png">
+                    <span>
+                        @(User.FindFirst("name")?.Value ?? User.Identity?.Name)
+                        <br />
+                        <small>
+                            @(User.FindFirst("preferred_username")?.Value) / 
+                            @(User.FindFirst("custom_plant")?.Value ?? "No Plant")
+                        </small>
+                    </span>
+                </div>           
             </div>
         </div>
     </div>
@@ -115,6 +120,95 @@
             ;
 
     </script>
+    <script>
+        const Toast = Swal.mixin({
+            toast: true,
+            position: "top-end",
+            showConfirmButton: false,
+            timer: 1500,
+            timerProgressBar: true,
+            @* didOpen: (toast) => {
+                toast.onmouseenter = Swal.stopTimer;
+                toast.onmouseleave = Swal.resumeTimer;
+            } *@
+        });
+    // Initialize Fomantic UI Dropdown
+    $(document).ready(function() {
+        $('#plantSelector').dropdown({
+            action: 'nothing', // ไม่ให้ dropdown ทำอะไรเอง เราจะจัดการเอง
+            onChange: function(value, text, $selectedItem) {
+                // Empty - เราใช้ onclick แทน
+            }
+        });
+    });
+
+    // Change Plant Function
+    function changePlant(plantCode) {
+        if (!plantCode) {
+            console.error('Plant code is required');
+            return;
+        }
+
+        // Add loading state
+        const selector = $('#plantSelector');
+        selector.addClass('loading');
+
+        // Send AJAX request to change plant
+        $.ajax({
+            url: '/_plantselector/changeplant',
+            type: 'POST',
+            data: JSON.stringify({ plantCode: plantCode }),
+            contentType: 'application/json',
+            success: function(response) {
+                if (response.success) {
+                        Toast.fire({
+                            icon: "success",
+                            title: 'Plant Changed',
+                             text: `Changed to ${response.plantName}`,
+                        }).then(() => {
+                        // Reload page to apply changes
+                        window.location.reload();
+                    });
+                                            
+                    @* Swal.fire({
+                        icon: 'success',
+                        title: 'Plant Changed',
+                        text: `Changed to ${response.plantName}`,
+                        timer: 1500,
+                        showConfirmButton: false
+                    }).then(() => {
+                        // Reload page to apply changes
+                        window.location.reload();
+                    }); *@
+                } else {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: response.message || 'Failed to change plant'
+                    });
+                    selector.removeClass('loading');
+                }
+            },
+            error: function(xhr, status, error) {
+                console.error('Error changing plant:', error);
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: 'Failed to change plant. Please try again.'
+                });
+                selector.removeClass('loading');
+            }
+        });
+    }
+
+    // Current Plant Info (for debugging)
+    function getCurrentPlant() {
+        const selector = $('#plantSelector');
+        const currentText = selector.find('.text').first().text();
+        console.log('Current Plant:', currentText);
+        return currentText;
+    }
+</script>
     @RenderSection("Scripts", required: false)
 </body>
 
