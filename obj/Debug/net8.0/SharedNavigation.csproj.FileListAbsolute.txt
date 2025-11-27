@@ -31,7 +31,6 @@ C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net
 C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net8.0\refint\SharedNavigation.dll
 C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net8.0\SharedNavigation.pdb
 C:\Users\TAT4HMJ\Documents\repository\TestProject\SharedNavigation\obj\Debug\net8.0\ref\SharedNavigation.dll
-C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\bin\Debug\net8.0\appsetting.json
 C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\bin\Debug\net8.0\SharedNavigation.staticwebassets.runtime.json
 C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\bin\Debug\net8.0\SharedNavigation.staticwebassets.endpoints.json
 C:\Users\TAT4HMJ\Documents\HSE Digitalization\SharedNavigation\bin\Debug\net8.0\SharedNavigation.deps.json

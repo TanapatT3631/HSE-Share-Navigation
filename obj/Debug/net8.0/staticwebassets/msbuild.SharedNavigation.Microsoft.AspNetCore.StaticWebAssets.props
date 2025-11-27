@@ -19217,7 +19217,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>209</FileLength>
-      <LastWriteTime>Wed, 26 Nov 2025 09:39:17 GMT</LastWriteTime>
+      <LastWriteTime>Wed, 26 Nov 2025 10:25:52 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SharedNavigation.kgn7gpijnq.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>

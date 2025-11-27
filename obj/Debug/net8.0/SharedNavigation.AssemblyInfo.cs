@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SharedNavigation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a3b01aeba029c8272df58a0a7e08c92abfcb2ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+122ff636ce7f68bfc52a0d54fe1d0e2b7f075559")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharedNavigation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharedNavigation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

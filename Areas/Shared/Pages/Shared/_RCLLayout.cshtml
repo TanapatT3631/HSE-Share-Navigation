@@ -15,8 +15,10 @@
     <link rel="stylesheet" href="~/_content/SharedNavigation/lib/sweetalert2/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="~/_content/SharedNavigation/css/navigation.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
     @RenderSection("Styles", required: false)
 </head>
 
@@ -35,7 +37,7 @@
             </div>
             <a class="item open-sidebar"><i class="sidebar icon"></i></a>
             <div class="right menu">
-                 @await Html.PartialAsync("~/Areas/Shared/Pages/Shared/_PlantSelector.cshtml")
+                @await Html.PartialAsync("~/Areas/Shared/Pages/Shared/_PlantSelector.cshtml")
                 <a class="item open-notify"><i class="bell icon"></i></a>
                 <div class="item">
                     <img class="ui avatar image" src="~/_content/SharedNavigation/images/wireframes/square-image.png">
@@ -43,11 +45,11 @@
                         @(User.FindFirst("name")?.Value ?? User.Identity?.Name)
                         <br />
                         <small>
-                            @(User.FindFirst("preferred_username")?.Value) / 
+                            @(User.FindFirst("preferred_username")?.Value) /
                             @(User.FindFirst("custom_plant")?.Value ?? "No Plant")
                         </small>
                     </span>
-                </div>           
+                </div>
             </div>
         </div>
     </div>
@@ -71,6 +73,8 @@
             <a class="item">Learn to See</a>
         </div>
         @await Html.PartialAsync("~/Areas/Shared/Pages/Shared/_Notification.cshtml")
+
+
         <div class="pusher" style="max-height: 100%;overflow-y: auto;padding-bottom:10px">
 
             @RenderBody()
@@ -96,6 +100,42 @@
     <style>
         body {
             font-family: "Google Sans Flex", sans-serif !important;
+        }
+
+        /* HTML: <div class="loader"></div> */
+        /* HTML: <div class="loader"></div> */
+        .loader {
+            align-items: center;
+            vertical-align: center !important;
+            width: 150px;
+            aspect-ratio: 1;
+            background:
+                linear-gradient(90deg, #902337 50%, #574499 0) top/100% 50% no-repeat,
+                linear-gradient(90deg, #34934b 50%, #2b82b7 0);
+            -webkit-mask: linear-gradient(#000 0 0) 0 0/50% 50% no-repeat;
+            animation: l18 2s infinite;
+        }
+
+        @@keyframes l18 {
+            0% {
+                -webkit-mask-position: 0 0
+            }
+
+            25% {
+                -webkit-mask-position: 100% 0
+            }
+
+            50% {
+                -webkit-mask-position: 100% 100%
+            }
+
+            75% {
+                -webkit-mask-position: 0 100%
+            }
+
+            100% {
+                -webkit-mask-position: 0 0
+            }
         }
     </style>
     @* <script src="~/_content/SharedNavigation/js/navigation.js"></script> *@
@@ -123,7 +163,7 @@
     <script>
         const Toast = Swal.mixin({
             toast: true,
-            position: "top-end",
+            position: "bottom-end",
             showConfirmButton: false,
             timer: 1500,
             timerProgressBar: true,
@@ -132,45 +172,46 @@
                 toast.onmouseleave = Swal.resumeTimer;
             } *@
         });
-    // Initialize Fomantic UI Dropdown
-    $(document).ready(function() {
-        $('#plantSelector').dropdown({
-            action: 'nothing', // ไม่ให้ dropdown ทำอะไรเอง เราจะจัดการเอง
-            onChange: function(value, text, $selectedItem) {
-                // Empty - เราใช้ onclick แทน
-            }
+        // Initialize Fomantic UI Dropdown
+        $(document).ready(function () {
+            $('#plantSelector').dropdown({
+                action: 'nothing', // ไม่ให้ dropdown ทำอะไรเอง เราจะจัดการเอง
+                onChange: function (value, text, $selectedItem) {
+                    // Empty - เราใช้ onclick แทน
+                }
+            });
         });
-    });
 
-    // Change Plant Function
-    function changePlant(plantCode) {
-        if (!plantCode) {
-            console.error('Plant code is required');
-            return;
-        }
+        // Change Plant Function
+        function changePlant(plantCode) {
+            if (!plantCode) {
+                console.error('Plant code is required');
+                return;
+            }
 
-        // Add loading state
-        const selector = $('#plantSelector');
-        selector.addClass('loading');
-
-        // Send AJAX request to change plant
-        $.ajax({
-            url: '/_plantselector/changeplant',
-            type: 'POST',
-            data: JSON.stringify({ plantCode: plantCode }),
-            contentType: 'application/json',
-            success: function(response) {
-                if (response.success) {
+            // Add loading state
+            const selector = $('#plantSelector');
+            selector.addClass('loading');
+            $('#loading').show();
+            $('#main-content').hide();
+            // Send AJAX request to change plant
+            $.ajax({
+                url: '/_plantselector/changeplant',
+                type: 'POST',
+                data: JSON.stringify({ plantCode: plantCode }),
+                contentType: 'application/json',
+                success: function (response) {
+                    if (response.success) {
                         Toast.fire({
                             icon: "success",
                             title: 'Plant Changed',
-                             text: `Changed to ${response.plantName}`,
+                            text: `Changed to ${response.plantName}`,
                         }).then(() => {
-                        // Reload page to apply changes
-                        window.location.reload();
-                    });
-                                            
-                    @* Swal.fire({
+                            // Reload page to apply changes
+                            window.location.reload();
+                        });
+
+                        @* Swal.fire({
                         icon: 'success',
                         title: 'Plant Changed',
                         text: `Changed to ${response.plantName}`,
@@ -181,34 +222,34 @@
                         window.location.reload();
                     }); *@
                 } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error',
+                            text: response.message || 'Failed to change plant'
+                        });
+                        selector.removeClass('loading');
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error changing plant:', error);
                     Swal.fire({
                         icon: 'error',
                         title: 'Error',
-                        text: response.message || 'Failed to change plant'
+                        text: 'Failed to change plant. Please try again.'
                     });
                     selector.removeClass('loading');
                 }
-            },
-            error: function(xhr, status, error) {
-                console.error('Error changing plant:', error);
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Error',
-                    text: 'Failed to change plant. Please try again.'
-                });
-                selector.removeClass('loading');
-            }
-        });
-    }
+            });
+        }
 
-    // Current Plant Info (for debugging)
-    function getCurrentPlant() {
-        const selector = $('#plantSelector');
-        const currentText = selector.find('.text').first().text();
-        console.log('Current Plant:', currentText);
-        return currentText;
-    }
-</script>
+        // Current Plant Info (for debugging)
+        function getCurrentPlant() {
+            const selector = $('#plantSelector');
+            const currentText = selector.find('.text').first().text();
+            console.log('Current Plant:', currentText);
+            return currentText;
+        }
+    </script>
     @RenderSection("Scripts", required: false)
 </body>
 
